@@ -193,22 +193,59 @@
     padding: 20px 0px 40px 0px;
 }
 
-.holiday {}
+.holiday {
+    padding: 80px;
+}
 
-.holiday-content {}
+.holiday-content {
+    text-align: center;
+}
 
-.holiday-content p {}
+.holiday-content p {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
 
-.holiday-content h1 {}
+.holiday-content span {
+    color: #F00;
+}
 
-.holiday-content small {}
+.holiday-content h1 {
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    padding: 10px 0px;
+}
+
+.holiday-content small {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    display: block;
+    padding: 20px 250px 100px;
+}
 
 .holiday-img {
     display: flex;
 }
 
-.holiday-img-left {}
+.holiday-img-left {
+    z-index: 99;
+}
+
+.holiday-img-middle {
+    position: absolute;
+    right: 0px;
+
+}
 
 .holiday-img-right {}
 
-.holiday-img-buttom {}
+.holiday-img-buttom {
+    margin-top: -235px;
+    text-align: center;
+}
