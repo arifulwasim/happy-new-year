@@ -257,8 +257,6 @@
     padding: 50px;
 }
 
-.portfolio-content {}
-
 .portfolio-content p {
     color: #070211;
     font-family: Inter;
@@ -314,8 +312,6 @@
     height: 400px;
     text-align: center;
 }
-
-.subscribe-content {}
 
 .subscribe-content h1 {
     padding: 20px 0px;
